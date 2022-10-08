@@ -1,0 +1,736 @@
+                      :-) GROMACS - gmx grompp, 2020.4 (-:
+
+                            GROMACS is written by:
+     Emile Apol      Rossen Apostolov      Paul Bauer     Herman J.C. Berendsen
+    Par Bjelkmar      Christian Blau   Viacheslav Bolnykh     Kevin Boyd    
+ Aldert van Buuren   Rudi van Drunen     Anton Feenstra       Alan Gray     
+  Gerrit Groenhof     Anca Hamuraru    Vincent Hindriksen  M. Eric Irrgang  
+  Aleksei Iupinov   Christoph Junghans     Joe Jordan     Dimitrios Karkoulis
+    Peter Kasson        Jiri Kraus      Carsten Kutzner      Per Larsson    
+  Justin A. Lemkul    Viveca Lindahl    Magnus Lundborg     Erik Marklund   
+    Pascal Merz     Pieter Meulenhoff    Teemu Murtola       Szilard Pall   
+    Sander Pronk      Roland Schulz      Michael Shirts    Alexey Shvetsov  
+   Alfons Sijbers     Peter Tieleman      Jon Vincent      Teemu Virolainen 
+ Christian Wennberg    Maarten Wolf      Artem Zhmurov   
+                           and the project leaders:
+        Mark Abraham, Berk Hess, Erik Lindahl, and David van der Spoel
+
+Copyright (c) 1991-2000, University of Groningen, The Netherlands.
+Copyright (c) 2001-2019, The GROMACS development team at
+Uppsala University, Stockholm University and
+the Royal Institute of Technology, Sweden.
+check out http://www.gromacs.org for more information.
+
+GROMACS is free software; you can redistribute it and/or modify it
+under the terms of the GNU Lesser General Public License
+as published by the Free Software Foundation; either version 2.1
+of the License, or (at your option) any later version.
+
+GROMACS:      gmx grompp, version 2020.4
+Executable:   /share/apps/gromacs/2020.4/openmpi/intel/bin/gmx_mpi
+Data prefix:  /share/apps/gromacs/2020.4/openmpi/intel
+Working dir:  /home/rz2522/ondemand/data/sys/myjobs/projects/default/4
+Command line:
+  gmx_mpi grompp -f md_50.mdp -c npt.gro -t npt.cpt -p topol.top -o md_0_50_48tasks.tpr
+
+Ignoring obsolete mdp entry 'title'
+Ignoring obsolete mdp entry 'ns_type'
+Ignoring obsolete mdp entry 'title'
+Ignoring obsolete mdp entry 'ns_type'
+Ignoring obsolete mdp entry 'title'
+Ignoring obsolete mdp entry 'ns_type'
+Ignoring obsolete mdp entry 'title'
+Ignoring obsolete mdp entry 'ns_type'
+Ignoring obsolete mdp entry 'title'
+Ignoring obsolete mdp entry 'ns_type'
+Ignoring obsolete mdp entry 'title'
+Ignoring obsolete mdp entry 'title'
+Ignoring obsolete mdp entry 'ns_type'
+Ignoring obsolete mdp entry 'title'
+Ignoring obsolete mdp entry 'ns_type'
+Ignoring obsolete mdp entry 'ns_type'
+Setting the LD random seed to -1859145930
+Setting the LD random seed to -818255325
+Setting the LD random seed to -2095933417
+Setting the LD random seed to 1460743416
+Setting the LD random seed to -257765944
+Setting the LD random seed to 1299353521
+Setting the LD random seed to -1945906591
+Setting the LD random seed to 174645297
+Ignoring obsolete mdp entry 'title'
+Ignoring obsolete mdp entry 'ns_type'
+Ignoring obsolete mdp entry 'title'
+Ignoring obsolete mdp entry 'ns_type'
+Ignoring obsolete mdp entry 'title'
+Ignoring obsolete mdp entry 'ns_type'
+Ignoring obsolete mdp entry 'title'
+Ignoring obsolete mdp entry 'ns_type'
+Ignoring obsolete mdp entry 'title'
+Ignoring obsolete mdp entry 'ns_type'
+Ignoring obsolete mdp entry 'title'
+Ignoring obsolete mdp entry 'ns_type'
+Ignoring obsolete mdp entry 'title'
+Ignoring obsolete mdp entry 'ns_type'
+Ignoring obsolete mdp entry 'title'
+Ignoring obsolete mdp entry 'ns_type'
+Ignoring obsolete mdp entry 'title'
+Ignoring obsolete mdp entry 'ns_type'
+Ignoring obsolete mdp entry 'title'
+Ignoring obsolete mdp entry 'ns_type'
+Ignoring obsolete mdp entry 'title'
+Ignoring obsolete mdp entry 'ns_type'
+Ignoring obsolete mdp entry 'title'
+Ignoring obsolete mdp entry 'ns_type'
+Setting the LD random seed to 874824571
+Setting the LD random seed to 595114509
+Setting the LD random seed to -94132503
+Setting the LD random seed to -620886154
+Setting the LD random seed to 846798068
+Setting the LD random seed to 2094907967
+Setting the LD random seed to 2064135883
+Setting the LD random seed to -1130895245
+Setting the LD random seed to -884041348
+Setting the LD random seed to 837340225
+Setting the LD random seed to 976704840
+Setting the LD random seed to -328242663
+Generated 330891 of the 330891 non-bonded parameter combinations
+Generating 1-4 interactions: fudge = 0.5
+Generated 330891 of the 330891 non-bonded parameter combinations
+Generating 1-4 interactions: fudge = 0.5
+Generated 330891 of the 330891 non-bonded parameter combinations
+Generating 1-4 interactions: fudge = 0.5
+Generated 330891 of the 330891 non-bonded parameter combinations
+Generating 1-4 interactions: fudge = 0.5
+Generated 330891 of the 330891 non-bonded parameter combinations
+Generated 330891 of the 330891 non-bonded parameter combinations
+Generating 1-4 interactions: fudge = 0.5
+Generating 1-4 interactions: fudge = 0.5
+Generated 330891 of the 330891 non-bonded parameter combinations
+Generated 330891 of the 330891 non-bonded parameter combinations
+Generating 1-4 interactions: fudge = 0.5
+Generating 1-4 interactions: fudge = 0.5
+Ignoring obsolete mdp entry 'title'
+Ignoring obsolete mdp entry 'ns_type'
+Ignoring obsolete mdp entry 'title'
+Ignoring obsolete mdp entry 'ns_type'
+Ignoring obsolete mdp entry 'title'
+Ignoring obsolete mdp entry 'ns_type'
+Ignoring obsolete mdp entry 'title'
+Ignoring obsolete mdp entry 'ns_type'
+Ignoring obsolete mdp entry 'title'
+Ignoring obsolete mdp entry 'ns_type'
+Ignoring obsolete mdp entry 'title'
+Ignoring obsolete mdp entry 'ns_type'
+Ignoring obsolete mdp entry 'title'
+Ignoring obsolete mdp entry 'ns_type'
+Ignoring obsolete mdp entry 'title'
+Ignoring obsolete mdp entry 'ns_type'
+Setting the LD random seed to 1427035615
+Setting the LD random seed to -1742615802
+Setting the LD random seed to -379502503
+Setting the LD random seed to -1892393519
+Setting the LD random seed to 1865547800
+Ignoring obsolete mdp entry 'title'
+Ignoring obsolete mdp entry 'ns_type'
+Setting the LD random seed to -469964666
+Setting the LD random seed to -873667761
+Setting the LD random seed to -1665651480
+Setting the LD random seed to 1319088247
+Ignoring obsolete mdp entry 'title'
+Ignoring obsolete mdp entry 'ns_type'
+Setting the LD random seed to -716281263
+[1664065605.681831] [cs087:3603795:0]        mm_posix.c:207  UCX  ERROR open(file_name=/proc/3603783/fd/24 flags=0x0) failed: Permission denied
+[1664065605.686244] [cs087:3603811:0]        mm_posix.c:207  UCX  ERROR open(file_name=/proc/3603783/fd/24 flags=0x0) failed: Permission denied
+--------------------------------------------------------------------------
+Primary job  terminated normally, but 1 process returned
+a non-zero exit code. Per user-direction, the job has been aborted.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+mpirun noticed that process rank 4 with PID 3603783 on node cs087 exited on signal 9 (Killed).
+--------------------------------------------------------------------------
+                      :-) GROMACS - gmx mdrun, 2020.4 (-:
+
+                            GROMACS is written by:
+     Emile Apol      Rossen Apostolov      Paul Bauer     Herman J.C. Berendsen
+    Par Bjelkmar      Christian Blau   Viacheslav Bolnykh     Kevin Boyd    
+ Aldert van Buuren   Rudi van Drunen     Anton Feenstra       Alan Gray     
+  Gerrit Groenhof     Anca Hamuraru    Vincent Hindriksen  M. Eric Irrgang  
+  Aleksei Iupinov   Christoph Junghans     Joe Jordan     Dimitrios Karkoulis
+    Peter Kasson        Jiri Kraus      Carsten Kutzner      Per Larsson    
+  Justin A. Lemkul    Viveca Lindahl    Magnus Lundborg     Erik Marklund   
+    Pascal Merz     Pieter Meulenhoff    Teemu Murtola       Szilard Pall   
+    Sander Pronk      Roland Schulz      Michael Shirts    Alexey Shvetsov  
+   Alfons Sijbers     Peter Tieleman      Jon Vincent      Teemu Virolainen 
+ Christian Wennberg    Maarten Wolf      Artem Zhmurov   
+                           and the project leaders:
+        Mark Abraham, Berk Hess, Erik Lindahl, and David van der Spoel
+
+Copyright (c) 1991-2000, University of Groningen, The Netherlands.
+Copyright (c) 2001-2019, The GROMACS development team at
+Uppsala University, Stockholm University and
+the Royal Institute of Technology, Sweden.
+check out http://www.gromacs.org for more information.
+
+GROMACS is free software; you can redistribute it and/or modify it
+under the terms of the GNU Lesser General Public License
+as published by the Free Software Foundation; either version 2.1
+of the License, or (at your option) any later version.
+
+GROMACS:      gmx mdrun, version 2020.4
+Executable:   /share/apps/gromacs/2020.4/openmpi/intel/bin/gmx_mpi
+Data prefix:  /share/apps/gromacs/2020.4/openmpi/intel
+Working dir:  /home/rz2522/ondemand/data/sys/myjobs/projects/default/4
+Command line:
+  gmx_mpi mdrun -deffnm md_0_50_48tasks
+
+
+-------------------------------------------------------
+Program:     gmx mdrun, version 2020.4
+Source file: src/gromacs/options/options.cpp (line 179)
+Function:    void gmx::internal::OptionSectionImpl::finish()
+MPI rank:    5 (out of 48)
+
+Error in user input:
+
+-------------------------------------------------------
+Program:     gmx mdrun, version 2020.4
+Source file: src/gromacs/options/options.cpp (line 179)
+Function:    void gmx::internal::OptionSectionImpl::finish()
+MPI rank:    7 (out of 48)
+
+Error in user input:
+Invalid input values
+
+-------------------------------------------------------
+Program:     gmx mdrun, version 2020.4
+Source file: src/gromacs/options/options.cpp (line 179)
+Function:    void gmx::internal::OptionSectionImpl::finish()
+MPI rank:    26 (out of 48)
+
+Error in user input:
+Invalid input values
+
+-------------------------------------------------------
+Program:     gmx mdrun, version 2020.4
+Source file: src/gromacs/options/options.cpp (line 179)
+Function:    void gmx::internal::OptionSectionImpl::finish()
+MPI rank:    8 (out of 48)
+
+Error in user input:
+
+-------------------------------------------------------
+Program:     gmx mdrun, version 2020.4
+Source file: src/gromacs/options/options.cpp (line 179)
+Function:    void gmx::internal::OptionSectionImpl::finish()
+MPI rank:    13 (out of 48)
+
+Error in user input:
+
+-------------------------------------------------------
+Program:     gmx mdrun, version 2020.4
+Source file: src/gromacs/options/options.cpp (line 179)
+Function:    void gmx::internal::OptionSectionImpl::finish()
+MPI rank:    21 (out of 48)
+
+Error in user input:
+Invalid input values
+
+-------------------------------------------------------
+Program:     gmx mdrun, version 2020.4
+Source file: src/gromacs/options/options.cpp (line 179)
+Function:    void gmx::internal::OptionSectionImpl::finish()
+MPI rank:    43 (out of 48)
+
+Error in user input:
+Invalid input values
+Invalid input values
+
+-------------------------------------------------------
+Program:     gmx mdrun, version 2020.4
+Source file: src/gromacs/options/options.cpp (line 179)
+Function:    void gmx::internal::OptionSectionImpl::finish()
+MPI rank:    1 (out of 48)
+
+Error in user input:
+Invalid input values
+  In option s
+    Required option was not provided, and the default file 'topol' does not
+    exist or is not accessible.
+    The following extensions were tried to complete the file name:
+      .tpr
+
+For more information and tips for troubleshooting, please check the GROMACS
+website at http://www.gromacs.org/Documentation/Errors
+-------------------------------------------------------
+
+-------------------------------------------------------
+Program:     gmx mdrun, version 2020.4
+Source file: src/gromacs/options/options.cpp (line 179)
+Function:    void gmx::internal::OptionSectionImpl::finish()
+MPI rank:    2 (out of 48)
+
+Error in user input:
+Invalid input values
+  In option s
+    Required option was not provided, and the default file 'topol' does not
+    exist or is not accessible.
+    The following extensions were tried to complete the file name:
+
+-------------------------------------------------------
+Program:     gmx mdrun, version 2020.4
+Source file: src/gromacs/options/options.cpp (line 179)
+Function:    void gmx::internal::OptionSectionImpl::finish()
+MPI rank:    6 (out of 48)
+
+Error in user input:
+Invalid input values
+  In option s
+    Required option was not provided, and the default file 'topol' does not
+    exist or is not accessible.
+    The following extensions were tried to complete the file name:
+      .tpr
+
+For more information and tips for troubleshooting, please check the GROMACS
+website at http://www.gromacs.org/Documentation/Errors
+-------------------------------------------------------
+  In option s
+    Required option was not provided, and the default file 'topol' does not
+    exist or is not accessible.
+    The following extensions were tried to complete the file name:
+      .tpr
+
+For more information and tips for troubleshooting, please check the GROMACS
+website at http://www.gromacs.org/Documentation/Errors
+-------------------------------------------------------
+  In option s
+    Required option was not provided, and the default file 'topol' does not
+    exist or is not accessible.
+    The following extensions were tried to complete the file name:
+      .tpr
+
+For more information and tips for troubleshooting, please check the GROMACS
+website at http://www.gromacs.org/Documentation/Errors
+-------------------------------------------------------
+
+-------------------------------------------------------
+Program:     gmx mdrun, version 2020.4
+Source file: src/gromacs/options/options.cpp (line 179)
+Function:    void gmx::internal::OptionSectionImpl::finish()
+MPI rank:    10 (out of 48)
+
+Error in user input:
+Invalid input values
+
+-------------------------------------------------------
+Program:     gmx mdrun, version 2020.4
+Source file: src/gromacs/options/options.cpp (line 179)
+Function:    void gmx::internal::OptionSectionImpl::finish()
+MPI rank:    11 (out of 48)
+
+Error in user input:
+Invalid input values
+Invalid input values
+  In option s
+    Required option was not provided, and the default file 'topol' does not
+    exist or is not accessible.
+    The following extensions were tried to complete the file name:
+      .tpr
+
+For more information and tips for troubleshooting, please check the GROMACS
+website at http://www.gromacs.org/Documentation/Errors
+-------------------------------------------------------
+
+-------------------------------------------------------
+Program:     gmx mdrun, version 2020.4
+Source file: src/gromacs/options/options.cpp (line 179)
+Function:    void gmx::internal::OptionSectionImpl::finish()
+MPI rank:    18 (out of 48)
+
+Error in user input:
+Invalid input values
+
+-------------------------------------------------------
+Program:     gmx mdrun, version 2020.4
+Source file: src/gromacs/options/options.cpp (line 179)
+Function:    void gmx::internal::OptionSectionImpl::finish()
+MPI rank:    19 (out of 48)
+
+Error in user input:
+Invalid input values
+  In option s
+    Required option was not provided, and the default file 'topol' does not
+    exist or is not accessible.
+    The following extensions were tried to complete the file name:
+      .tpr
+
+For more information and tips for troubleshooting, please check the GROMACS
+website at http://www.gromacs.org/Documentation/Errors
+-------------------------------------------------------
+Invalid input values
+  In option s
+    Required option was not provided, and the default file 'topol' does not
+    exist or is not accessible.
+    The following extensions were tried to complete the file name:
+      .tpr
+
+For more information and tips for troubleshooting, please check the GROMACS
+website at http://www.gromacs.org/Documentation/Errors
+-------------------------------------------------------
+  In option s
+    Required option was not provided, and the default file 'topol' does not
+    exist or is not accessible.
+    The following extensions were tried to complete the file name:
+      .tpr
+
+For more information and tips for troubleshooting, please check the GROMACS
+website at http://www.gromacs.org/Documentation/Errors
+-------------------------------------------------------
+
+-------------------------------------------------------
+Program:     gmx mdrun, version 2020.4
+Source file: src/gromacs/options/options.cpp (line 179)
+Function:    void gmx::internal::OptionSectionImpl::finish()
+MPI rank:    34 (out of 48)
+
+Error in user input:
+Invalid input values
+  In option s
+
+-------------------------------------------------------
+Program:     gmx mdrun, version 2020.4
+Source file: src/gromacs/options/options.cpp (line 179)
+Function:    void gmx::internal::OptionSectionImpl::finish()
+MPI rank:    35 (out of 48)
+
+Error in user input:
+Invalid input values
+  In option s
+    Required option was not provided, and the default file 'topol' does not
+    exist or is not accessible.
+    The following extensions were tried to complete the file name:
+      .tpr
+
+For more information and tips for troubleshooting, please check the GROMACS
+website at http://www.gromacs.org/Documentation/Errors
+-------------------------------------------------------
+  In option s
+    Required option was not provided, and the default file 'topol' does not
+    exist or is not accessible.
+    The following extensions were tried to complete the file name:
+      .tpr
+
+For more information and tips for troubleshooting, please check the GROMACS
+website at http://www.gromacs.org/Documentation/Errors
+-------------------------------------------------------
+
+-------------------------------------------------------
+Program:     gmx mdrun, version 2020.4
+Source file: src/gromacs/options/options.cpp (line 179)
+Function:    void gmx::internal::OptionSectionImpl::finish()
+MPI rank:    45 (out of 48)
+
+Error in user input:
+Invalid input values
+  In option s
+    Required option was not provided, and the default file 'topol' does not
+    exist or is not accessible.
+    The following extensions were tried to complete the file name:
+      .tpr
+
+For more information and tips for troubleshooting, please check the GROMACS
+website at http://www.gromacs.org/Documentation/Errors
+-------------------------------------------------------
+
+-------------------------------------------------------
+Program:     gmx mdrun, version 2020.4
+Source file: src/gromacs/options/options.cpp (line 179)
+Function:    void gmx::internal::OptionSectionImpl::finish()
+MPI rank:    46 (out of 48)
+
+Error in user input:
+Invalid input values
+  In option s
+    Required option was not provided, and the default file 'topol' does not
+    exist or is not accessible.
+    The following extensions were tried to complete the file name:
+      .tpr
+
+For more information and tips for troubleshooting, please check the GROMACS
+website at http://www.gromacs.org/Documentation/Errors
+-------------------------------------------------------
+  In option s
+    Required option was not provided, and the default file 'topol' does not
+    exist or is not accessible.
+    The following extensions were tried to complete the file name:
+      .tpr
+
+For more information and tips for troubleshooting, please check the GROMACS
+website at http://www.gromacs.org/Documentation/Errors
+-------------------------------------------------------
+
+-------------------------------------------------------
+Program:     gmx mdrun, version 2020.4
+Source file: src/gromacs/options/options.cpp (line 179)
+Function:    void gmx::internal::OptionSectionImpl::finish()
+MPI rank:    3 (out of 48)
+
+Error in user input:
+Invalid input values
+  In option s
+    Required option was not provided, and the default file 'topol' does not
+    exist or is not accessible.
+    The following extensions were tried to complete the file name:
+      .tpr
+
+For more information and tips for troubleshooting, please check the GROMACS
+website at http://www.gromacs.org/Documentation/Errors
+-------------------------------------------------------
+      .tpr
+
+For more information and tips for troubleshooting, please check the GROMACS
+website at http://www.gromacs.org/Documentation/Errors
+-------------------------------------------------------
+  In option s
+    Required option was not provided, and the default file 'topol' does not
+    exist or is not accessible.
+    The following extensions were tried to complete the file name:
+      .tpr
+
+For more information and tips for troubleshooting, please check the GROMACS
+website at http://www.gromacs.org/Documentation/Errors
+-------------------------------------------------------
+  In option s
+    Required option was not provided, and the default file 'topol' does not
+    exist or is not accessible.
+    The following extensions were tried to complete the file name:
+      .tpr
+
+For more information and tips for troubleshooting, please check the GROMACS
+website at http://www.gromacs.org/Documentation/Errors
+-------------------------------------------------------
+
+-------------------------------------------------------
+Program:     gmx mdrun, version 2020.4
+Source file: src/gromacs/options/options.cpp (line 179)
+Function:    void gmx::internal::OptionSectionImpl::finish()
+MPI rank:    14 (out of 48)
+
+Error in user input:
+Invalid input values
+  In option s
+    Required option was not provided, and the default file 'topol' does not
+    exist or is not accessible.
+    The following extensions were tried to complete the file name:
+      .tpr
+
+For more information and tips for troubleshooting, please check the GROMACS
+website at http://www.gromacs.org/Documentation/Errors
+-------------------------------------------------------
+
+-------------------------------------------------------
+Program:     gmx mdrun, version 2020.4
+Source file: src/gromacs/options/options.cpp (line 179)
+Function:    void gmx::internal::OptionSectionImpl::finish()
+MPI rank:    16 (out of 48)
+
+Error in user input:
+Invalid input values
+  In option s
+    Required option was not provided, and the default file 'topol' does not
+    exist or is not accessible.
+    The following extensions were tried to complete the file name:
+      .tpr
+
+For more information and tips for troubleshooting, please check the GROMACS
+website at http://www.gromacs.org/Documentation/Errors
+-------------------------------------------------------
+  In option s
+    Required option was not provided, and the default file 'topol' does not
+    exist or is not accessible.
+    The following extensions were tried to complete the file name:
+      .tpr
+
+For more information and tips for troubleshooting, please check the GROMACS
+website at http://www.gromacs.org/Documentation/Errors
+-------------------------------------------------------
+
+-------------------------------------------------------
+Program:     gmx mdrun, version 2020.4
+Source file: src/gromacs/options/options.cpp (line 179)
+Function:    void gmx::internal::OptionSectionImpl::finish()
+MPI rank:    22 (out of 48)
+
+Error in user input:
+Invalid input values
+  In option s
+    Required option was not provided, and the default file 'topol' does not
+    exist or is not accessible.
+    The following extensions were tried to complete the file name:
+      .tpr
+
+For more information and tips for troubleshooting, please check the GROMACS
+website at http://www.gromacs.org/Documentation/Errors
+-------------------------------------------------------
+
+-------------------------------------------------------
+Program:     gmx mdrun, version 2020.4
+Source file: src/gromacs/options/options.cpp (line 179)
+Function:    void gmx::internal::OptionSectionImpl::finish()
+MPI rank:    23 (out of 48)
+
+Error in user input:
+Invalid input values
+  In option s
+    Required option was not provided, and the default file 'topol' does not
+    exist or is not accessible.
+    The following extensions were tried to complete the file name:
+      .tpr
+
+For more information and tips for troubleshooting, please check the GROMACS
+website at http://www.gromacs.org/Documentation/Errors
+-------------------------------------------------------
+
+-------------------------------------------------------
+Program:     gmx mdrun, version 2020.4
+Source file: src/gromacs/options/options.cpp (line 179)
+Function:    void gmx::internal::OptionSectionImpl::finish()
+MPI rank:    30 (out of 48)
+
+Error in user input:
+Invalid input values
+  In option s
+    Required option was not provided, and the default file 'topol' does not
+    exist or is not accessible.
+    The following extensions were tried to complete the file name:
+      .tpr
+
+For more information and tips for troubleshooting, please check the GROMACS
+website at http://www.gromacs.org/Documentation/Errors
+-------------------------------------------------------
+
+-------------------------------------------------------
+Program:     gmx mdrun, version 2020.4
+Source file: src/gromacs/options/options.cpp (line 179)
+Function:    void gmx::internal::OptionSectionImpl::finish()
+MPI rank:    32 (out of 48)
+
+Error in user input:
+Invalid input values
+  In option s
+    Required option was not provided, and the default file 'topol' does not
+    exist or is not accessible.
+    The following extensions were tried to complete the file name:
+      .tpr
+
+For more information and tips for troubleshooting, please check the GROMACS
+website at http://www.gromacs.org/Documentation/Errors
+-------------------------------------------------------
+
+-------------------------------------------------------
+Program:     gmx mdrun, version 2020.4
+Source file: src/gromacs/options/options.cpp (line 179)
+Function:    void gmx::internal::OptionSectionImpl::finish()
+MPI rank:    33 (out of 48)
+
+Error in user input:
+Invalid input values
+  In option s
+    Required option was not provided, and the default file 'topol' does not
+    exist or is not accessible.
+    The following extensions were tried to complete the file name:
+      .tpr
+
+For more information and tips for troubleshooting, please check the GROMACS
+website at http://www.gromacs.org/Documentation/Errors
+-------------------------------------------------------
+    Required option was not provided, and the default file 'topol' does not
+    exist or is not accessible.
+    The following extensions were tried to complete the file name:
+      .tpr
+
+For more information and tips for troubleshooting, please check the GROMACS
+website at http://www.gromacs.org/Documentation/Errors
+-------------------------------------------------------
+
+-------------------------------------------------------
+Program:     gmx mdrun, version 2020.4
+Source file: src/gromacs/options/options.cpp (line 179)
+Function:    void gmx::internal::OptionSectionImpl::finish()
+MPI rank:    38 (out of 48)
+
+Error in user input:
+Invalid input values
+  In option s
+    Required option was not provided, and the default file 'topol' does not
+    exist or is not accessible.
+    The following extensions were tried to complete the file name:
+      .tpr
+
+For more information and tips for troubleshooting, please check the GROMACS
+website at http://www.gromacs.org/Documentation/Errors
+-------------------------------------------------------
+
+-------------------------------------------------------
+Program:     gmx mdrun, version 2020.4
+Source file: src/gromacs/options/options.cpp (line 179)
+Function:    void gmx::internal::OptionSectionImpl::finish()
+MPI rank:    40 (out of 48)
+
+Error in user input:
+Invalid input values
+  In option s
+    Required option was not provided, and the default file 'topol' does not
+    exist or is not accessible.
+    The following extensions were tried to complete the file name:
+      .tpr
+
+For more information and tips for troubleshooting, please check the GROMACS
+website at http://www.gromacs.org/Documentation/Errors
+-------------------------------------------------------
+
+-------------------------------------------------------
+Program:     gmx mdrun, version 2020.4
+Source file: src/gromacs/options/options.cpp (line 179)
+Function:    void gmx::internal::OptionSectionImpl::finish()
+MPI rank:    0 (out of 48)
+
+Error in user input:
+Invalid input values
+  In option s
+    Required option was not provided, and the default file 'topol' does not
+    exist or is not accessible.
+    The following extensions were tried to complete the file name:
+      .tpr
+
+For more information and tips for troubleshooting, please check the GROMACS
+website at http://www.gromacs.org/Documentation/Errors
+-------------------------------------------------------
+--------------------------------------------------------------------------
+MPI_ABORT was invoked on rank 40 in communicator MPI_COMM_WORLD
+with errorcode 1.
+
+NOTE: invoking MPI_ABORT causes Open MPI to kill all MPI processes.
+You may or may not see output from other processes, depending on
+exactly when Open MPI kills them.
+--------------------------------------------------------------------------
+
+-------------------------------------------------------
+Program:     gmx mdrun, version 2020.4
+Source file: src/gromacs/options/options.cpp (line 179)
+Function:    void gmx::internal::OptionSectionImpl::finish()
+MPI rank:    15 (out of 48)
+
+Error in user input:
+Invalid input values
+  In option s
+    Required option was not provided, and the default file 'topol' does not
+    exist or is not accessible.
+    The following extensions were tried to complete the file name:
+      .tpr
+
+For more information and tips for troubleshooting, please check the GROMACS
+website at http://www.gromacs.org/Documentation/Errors
+-------------------------------------------------------
+[cs087.hpc.nyu.edu:3603974] 10 more processes have sent help message help-mpi-api.txt / mpi-abort
+[cs087.hpc.nyu.edu:3603974] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+slurmstepd: error: Detected 2 oom-kill event(s) in StepId=25431879.batch. Some of your processes may have been killed by the cgroup out-of-memory handler.

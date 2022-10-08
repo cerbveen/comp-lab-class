@@ -1,0 +1,461 @@
+                      :-) GROMACS - gmx grompp, 2020.4 (-:
+
+                            GROMACS is written by:
+     Emile Apol      Rossen Apostolov      Paul Bauer     Herman J.C. Berendsen
+    Par Bjelkmar      Christian Blau   Viacheslav Bolnykh     Kevin Boyd    
+ Aldert van Buuren   Rudi van Drunen     Anton Feenstra       Alan Gray     
+  Gerrit Groenhof     Anca Hamuraru    Vincent Hindriksen  M. Eric Irrgang  
+  Aleksei Iupinov   Christoph Junghans     Joe Jordan     Dimitrios Karkoulis
+    Peter Kasson        Jiri Kraus      Carsten Kutzner      Per Larsson    
+  Justin A. Lemkul    Viveca Lindahl    Magnus Lundborg     Erik Marklund   
+    Pascal Merz     Pieter Meulenhoff    Teemu Murtola       Szilard Pall   
+    Sander Pronk      Roland Schulz      Michael Shirts    Alexey Shvetsov  
+   Alfons Sijbers     Peter Tieleman      Jon Vincent      Teemu Virolainen 
+ Christian Wennberg    Maarten Wolf      Artem Zhmurov   
+                           and the project leaders:
+        Mark Abraham, Berk Hess, Erik Lindahl, and David van der Spoel
+
+Copyright (c) 1991-2000, University of Groningen, The Netherlands.
+Copyright (c) 2001-2019, The GROMACS development team at
+Uppsala University, Stockholm University and
+the Royal Institute of Technology, Sweden.
+check out http://www.gromacs.org for more information.
+
+GROMACS is free software; you can redistribute it and/or modify it
+under the terms of the GNU Lesser General Public License
+as published by the Free Software Foundation; either version 2.1
+of the License, or (at your option) any later version.
+
+GROMACS:      gmx grompp, version 2020.4
+Executable:   /share/apps/gromacs/2020.4/openmpi/intel/bin/gmx_mpi
+Data prefix:  /share/apps/gromacs/2020.4/openmpi/intel
+Working dir:  /home/rz2522/ondemand/data/sys/myjobs/projects/default/4
+Command line:
+  gmx_mpi grompp -f nvt.mdp -c energy_minim.gro -r energy_minim.gro -p topol.top -o nvt.tpr
+
+Ignoring obsolete mdp entry 'title'
+Ignoring obsolete mdp entry 'ns_type'
+Setting the LD random seed to -1067374285
+Generated 330891 of the 330891 non-bonded parameter combinations
+Generating 1-4 interactions: fudge = 0.5
+Generated 330891 of the 330891 1-4 parameter combinations
+Excluding 3 bonded neighbours molecule type 'Protein_chain_A'
+turning H bonds into constraints...
+Excluding 2 bonded neighbours molecule type 'SOL'
+turning H bonds into constraints...
+turning H bonds into constraints...
+Excluding 1 bonded neighbours molecule type 'CL'
+Setting gen_seed to 420761046
+Velocities were taken from a Maxwell distribution at 300 K
+Analysing residue names:
+There are:   129    Protein residues
+There are: 10636      Water residues
+There are:     8        Ion residues
+Analysing Protein...
+Analysing residues not classified as Protein/DNA/RNA/Water and splitting into groups...
+Number of degrees of freedom in T-Coupling group Protein is 4920.79
+Number of degrees of freedom in T-Coupling group non-Protein is 63837.21
+Determining Verlet buffer for a tolerance of 0.005 kJ/mol/ps at 300 K
+Calculated rlist for 1x1 atom pair-list as 1.034 nm, buffer size 0.034 nm
+Set rlist, assuming 4x4 atom pair-list, to 1.000 nm, buffer size 0.000 nm
+Note that mdrun will redetermine rlist based on the actual pair-list setup
+
+NOTE 1 [file nvt.mdp]:
+  Removing center of mass motion in the presence of position restraints
+  might cause artifacts. When you are using position restraints to
+  equilibrate a macro-molecule, the artifacts are usually negligible.
+
+Calculating fourier grid dimensions for X Y Z
+Using a fourier grid of 44x44x44, spacing 0.159 0.159 0.159
+Estimate for the relative computational load of the PME mesh part: 0.28
+This run will generate roughly 81 Mb of data
+
+There was 1 note
+
+Back Off! I just backed up nvt.tpr to ./#nvt.tpr.1#
+
+GROMACS reminds you: "Your daddy ain't your daddy but your daddy don't know" (Dalahan)
+
+                      :-) GROMACS - gmx mdrun, 2020.4 (-:
+
+                            GROMACS is written by:
+     Emile Apol      Rossen Apostolov      Paul Bauer     Herman J.C. Berendsen
+    Par Bjelkmar      Christian Blau   Viacheslav Bolnykh     Kevin Boyd    
+ Aldert van Buuren   Rudi van Drunen     Anton Feenstra       Alan Gray     
+  Gerrit Groenhof     Anca Hamuraru    Vincent Hindriksen  M. Eric Irrgang  
+  Aleksei Iupinov   Christoph Junghans     Joe Jordan     Dimitrios Karkoulis
+    Peter Kasson        Jiri Kraus      Carsten Kutzner      Per Larsson    
+  Justin A. Lemkul    Viveca Lindahl    Magnus Lundborg     Erik Marklund   
+    Pascal Merz     Pieter Meulenhoff    Teemu Murtola       Szilard Pall   
+    Sander Pronk      Roland Schulz      Michael Shirts    Alexey Shvetsov  
+   Alfons Sijbers     Peter Tieleman      Jon Vincent      Teemu Virolainen 
+ Christian Wennberg    Maarten Wolf      Artem Zhmurov   
+                           and the project leaders:
+        Mark Abraham, Berk Hess, Erik Lindahl, and David van der Spoel
+
+Copyright (c) 1991-2000, University of Groningen, The Netherlands.
+Copyright (c) 2001-2019, The GROMACS development team at
+Uppsala University, Stockholm University and
+the Royal Institute of Technology, Sweden.
+check out http://www.gromacs.org for more information.
+
+GROMACS is free software; you can redistribute it and/or modify it
+under the terms of the GNU Lesser General Public License
+as published by the Free Software Foundation; either version 2.1
+of the License, or (at your option) any later version.
+
+GROMACS:      gmx mdrun, version 2020.4
+Executable:   /share/apps/gromacs/2020.4/openmpi/intel/bin/gmx_mpi
+Data prefix:  /share/apps/gromacs/2020.4/openmpi/intel
+Working dir:  /home/rz2522/ondemand/data/sys/myjobs/projects/default/4
+Command line:
+  gmx_mpi mdrun -deffnm nvt
+
+
+Back Off! I just backed up nvt.log to ./#nvt.log.1#
+Reading file nvt.tpr, VERSION 2020.4 (single precision)
+Changing nstlist from 10 to 50, rlist from 1 to 1.111
+
+Using 48 MPI processes
+
+Non-default thread affinity set, disabling internal thread affinity
+
+Back Off! I just backed up nvt.trr to ./#nvt.trr.1#
+
+Back Off! I just backed up nvt.edr to ./#nvt.edr.1#
+starting mdrun 'LYSOZYME in water'
+50000 steps,    100.0 ps.
+
+Writing final coordinates.
+
+Back Off! I just backed up nvt.gro to ./#nvt.gro.1#
+
+
+Dynamic load balancing report:
+ DLB was turned on during the run due to measured imbalance.
+ Average load imbalance: 4.1%.
+ The balanceable part of the MD step is 79%, load imbalance is computed from this.
+ Part of the total run time spent waiting due to load imbalance: 3.3%.
+ Steps where the load balancing was limited by -rdd, -rcon and/or -dds: X 0 % Y 0 % Z 0 %
+ Average PME mesh/force load: 1.023
+ Part of the total run time spent waiting due to PP/PME imbalance: 1.4 %
+
+
+               Core t (s)   Wall t (s)        (%)
+       Time:     1818.095       37.877     4800.0
+                 (ns/day)    (hour/ns)
+Performance:      228.109        0.105
+
+GROMACS reminds you: "What is a Unix or Linux sysadmin's favourite hangout place? Foo Bar." (Anonymous)
+
+                      :-) GROMACS - gmx grompp, 2020.4 (-:
+
+                            GROMACS is written by:
+     Emile Apol      Rossen Apostolov      Paul Bauer     Herman J.C. Berendsen
+    Par Bjelkmar      Christian Blau   Viacheslav Bolnykh     Kevin Boyd    
+ Aldert van Buuren   Rudi van Drunen     Anton Feenstra       Alan Gray     
+  Gerrit Groenhof     Anca Hamuraru    Vincent Hindriksen  M. Eric Irrgang  
+  Aleksei Iupinov   Christoph Junghans     Joe Jordan     Dimitrios Karkoulis
+    Peter Kasson        Jiri Kraus      Carsten Kutzner      Per Larsson    
+  Justin A. Lemkul    Viveca Lindahl    Magnus Lundborg     Erik Marklund   
+    Pascal Merz     Pieter Meulenhoff    Teemu Murtola       Szilard Pall   
+    Sander Pronk      Roland Schulz      Michael Shirts    Alexey Shvetsov  
+   Alfons Sijbers     Peter Tieleman      Jon Vincent      Teemu Virolainen 
+ Christian Wennberg    Maarten Wolf      Artem Zhmurov   
+                           and the project leaders:
+        Mark Abraham, Berk Hess, Erik Lindahl, and David van der Spoel
+
+Copyright (c) 1991-2000, University of Groningen, The Netherlands.
+Copyright (c) 2001-2019, The GROMACS development team at
+Uppsala University, Stockholm University and
+the Royal Institute of Technology, Sweden.
+check out http://www.gromacs.org for more information.
+
+GROMACS is free software; you can redistribute it and/or modify it
+under the terms of the GNU Lesser General Public License
+as published by the Free Software Foundation; either version 2.1
+of the License, or (at your option) any later version.
+
+GROMACS:      gmx grompp, version 2020.4
+Executable:   /share/apps/gromacs/2020.4/openmpi/intel/bin/gmx_mpi
+Data prefix:  /share/apps/gromacs/2020.4/openmpi/intel
+Working dir:  /home/rz2522/ondemand/data/sys/myjobs/projects/default/4
+Command line:
+  gmx_mpi grompp -f npt.mdp -c nvt.gro -r nvt.gro -t nvt.cpt -p topol.top -o npt.tpr
+
+Ignoring obsolete mdp entry 'title'
+Ignoring obsolete mdp entry 'ns_type'
+Setting the LD random seed to -1225736731
+Generated 330891 of the 330891 non-bonded parameter combinations
+Generating 1-4 interactions: fudge = 0.5
+Generated 330891 of the 330891 1-4 parameter combinations
+Excluding 3 bonded neighbours molecule type 'Protein_chain_A'
+turning H bonds into constraints...
+Excluding 2 bonded neighbours molecule type 'SOL'
+turning H bonds into constraints...
+turning H bonds into constraints...
+Excluding 1 bonded neighbours molecule type 'CL'
+
+NOTE 1 [file topol.top, line 18410]:
+  You are combining position restraints with Parrinello-Rahman pressure
+  coupling, which can lead to instabilities. If you really want to combine
+  position restraints with pressure coupling, we suggest to use Berendsen
+  pressure coupling instead.
+
+The center of mass of the position restraint coord's is  3.486  3.519  3.504
+The center of mass of the position restraint coord's is  3.486  3.519  3.504
+Analysing residue names:
+There are:   129    Protein residues
+There are: 10636      Water residues
+There are:     8        Ion residues
+Analysing Protein...
+Analysing residues not classified as Protein/DNA/RNA/Water and splitting into groups...
+Number of degrees of freedom in T-Coupling group Protein is 4920.79
+Number of degrees of freedom in T-Coupling group non-Protein is 63837.21
+Determining Verlet buffer for a tolerance of 0.005 kJ/mol/ps at 300 K
+Calculated rlist for 1x1 atom pair-list as 1.034 nm, buffer size 0.034 nm
+Set rlist, assuming 4x4 atom pair-list, to 1.000 nm, buffer size 0.000 nm
+Note that mdrun will redetermine rlist based on the actual pair-list setup
+
+NOTE 2 [file npt.mdp]:
+  Removing center of mass motion in the presence of position restraints
+  might cause artifacts. When you are using position restraints to
+  equilibrate a macro-molecule, the artifacts are usually negligible.
+
+Reading Coordinates, Velocities and Box size from old trajectory
+Will read whole trajectory
+Last frame         -1 time  100.000   
+Using frame at t = 100 ps
+Starting time for run is 0 ps
+Calculating fourier grid dimensions for X Y Z
+Using a fourier grid of 44x44x44, spacing 0.159 0.159 0.159
+Estimate for the relative computational load of the PME mesh part: 0.28
+This run will generate roughly 81 Mb of data
+
+There were 2 notes
+
+Back Off! I just backed up npt.tpr to ./#npt.tpr.1#
+
+GROMACS reminds you: "Try to calculate the numbers that have been" (The Smoke Fairies)
+
+                      :-) GROMACS - gmx mdrun, 2020.4 (-:
+
+                            GROMACS is written by:
+     Emile Apol      Rossen Apostolov      Paul Bauer     Herman J.C. Berendsen
+    Par Bjelkmar      Christian Blau   Viacheslav Bolnykh     Kevin Boyd    
+ Aldert van Buuren   Rudi van Drunen     Anton Feenstra       Alan Gray     
+  Gerrit Groenhof     Anca Hamuraru    Vincent Hindriksen  M. Eric Irrgang  
+  Aleksei Iupinov   Christoph Junghans     Joe Jordan     Dimitrios Karkoulis
+    Peter Kasson        Jiri Kraus      Carsten Kutzner      Per Larsson    
+  Justin A. Lemkul    Viveca Lindahl    Magnus Lundborg     Erik Marklund   
+    Pascal Merz     Pieter Meulenhoff    Teemu Murtola       Szilard Pall   
+    Sander Pronk      Roland Schulz      Michael Shirts    Alexey Shvetsov  
+   Alfons Sijbers     Peter Tieleman      Jon Vincent      Teemu Virolainen 
+ Christian Wennberg    Maarten Wolf      Artem Zhmurov   
+                           and the project leaders:
+        Mark Abraham, Berk Hess, Erik Lindahl, and David van der Spoel
+
+Copyright (c) 1991-2000, University of Groningen, The Netherlands.
+Copyright (c) 2001-2019, The GROMACS development team at
+Uppsala University, Stockholm University and
+the Royal Institute of Technology, Sweden.
+check out http://www.gromacs.org for more information.
+
+GROMACS is free software; you can redistribute it and/or modify it
+under the terms of the GNU Lesser General Public License
+as published by the Free Software Foundation; either version 2.1
+of the License, or (at your option) any later version.
+
+GROMACS:      gmx mdrun, version 2020.4
+Executable:   /share/apps/gromacs/2020.4/openmpi/intel/bin/gmx_mpi
+Data prefix:  /share/apps/gromacs/2020.4/openmpi/intel
+Working dir:  /home/rz2522/ondemand/data/sys/myjobs/projects/default/4
+Command line:
+  gmx_mpi mdrun -deffnm npt
+
+
+Back Off! I just backed up npt.log to ./#npt.log.1#
+Reading file npt.tpr, VERSION 2020.4 (single precision)
+Changing nstlist from 10 to 50, rlist from 1 to 1.111
+
+Using 48 MPI processes
+
+Non-default thread affinity set, disabling internal thread affinity
+
+Back Off! I just backed up npt.trr to ./#npt.trr.1#
+
+Back Off! I just backed up npt.edr to ./#npt.edr.1#
+starting mdrun 'LYSOZYME in water'
+50000 steps,    100.0 ps.
+
+Writing final coordinates.
+
+Back Off! I just backed up npt.gro to ./#npt.gro.1#
+
+
+Dynamic load balancing report:
+ DLB was turned on during the run due to measured imbalance.
+ Average load imbalance: 4.6%.
+ The balanceable part of the MD step is 78%, load imbalance is computed from this.
+ Part of the total run time spent waiting due to load imbalance: 3.5%.
+ Steps where the load balancing was limited by -rdd, -rcon and/or -dds: X 0 % Y 0 % Z 0 %
+ Average PME mesh/force load: 1.010
+ Part of the total run time spent waiting due to PP/PME imbalance: 0.6 %
+
+
+               Core t (s)   Wall t (s)        (%)
+       Time:     1896.605       39.516     4799.6
+                 (ns/day)    (hour/ns)
+Performance:      218.651        0.110
+
+GROMACS reminds you: "... yet the [economic] profession continued to churn out purely theoretical results without even knowing what facts needed to be explained." (Thomas Piketty)
+
+                      :-) GROMACS - gmx grompp, 2020.4 (-:
+
+                            GROMACS is written by:
+     Emile Apol      Rossen Apostolov      Paul Bauer     Herman J.C. Berendsen
+    Par Bjelkmar      Christian Blau   Viacheslav Bolnykh     Kevin Boyd    
+ Aldert van Buuren   Rudi van Drunen     Anton Feenstra       Alan Gray     
+  Gerrit Groenhof     Anca Hamuraru    Vincent Hindriksen  M. Eric Irrgang  
+  Aleksei Iupinov   Christoph Junghans     Joe Jordan     Dimitrios Karkoulis
+    Peter Kasson        Jiri Kraus      Carsten Kutzner      Per Larsson    
+  Justin A. Lemkul    Viveca Lindahl    Magnus Lundborg     Erik Marklund   
+    Pascal Merz     Pieter Meulenhoff    Teemu Murtola       Szilard Pall   
+    Sander Pronk      Roland Schulz      Michael Shirts    Alexey Shvetsov  
+   Alfons Sijbers     Peter Tieleman      Jon Vincent      Teemu Virolainen 
+ Christian Wennberg    Maarten Wolf      Artem Zhmurov   
+                           and the project leaders:
+        Mark Abraham, Berk Hess, Erik Lindahl, and David van der Spoel
+
+Copyright (c) 1991-2000, University of Groningen, The Netherlands.
+Copyright (c) 2001-2019, The GROMACS development team at
+Uppsala University, Stockholm University and
+the Royal Institute of Technology, Sweden.
+check out http://www.gromacs.org for more information.
+
+GROMACS is free software; you can redistribute it and/or modify it
+under the terms of the GNU Lesser General Public License
+as published by the Free Software Foundation; either version 2.1
+of the License, or (at your option) any later version.
+
+GROMACS:      gmx grompp, version 2020.4
+Executable:   /share/apps/gromacs/2020.4/openmpi/intel/bin/gmx_mpi
+Data prefix:  /share/apps/gromacs/2020.4/openmpi/intel
+Working dir:  /home/rz2522/ondemand/data/sys/myjobs/projects/default/4
+Command line:
+  gmx_mpi grompp -f md_50.mdp -c npt.gro -t npt.cpt -p topol.top -o md_0_50_48tasks.tpr
+
+Ignoring obsolete mdp entry 'title'
+Ignoring obsolete mdp entry 'ns_type'
+Setting the LD random seed to -2095409712
+Generated 330891 of the 330891 non-bonded parameter combinations
+Generating 1-4 interactions: fudge = 0.5
+Generated 330891 of the 330891 1-4 parameter combinations
+Excluding 3 bonded neighbours molecule type 'Protein_chain_A'
+turning H bonds into constraints...
+Excluding 2 bonded neighbours molecule type 'SOL'
+turning H bonds into constraints...
+turning H bonds into constraints...
+Excluding 1 bonded neighbours molecule type 'CL'
+Analysing residue names:
+There are:   129    Protein residues
+There are: 10636      Water residues
+There are:     8        Ion residues
+Analysing Protein...
+Analysing residues not classified as Protein/DNA/RNA/Water and splitting into groups...
+Number of degrees of freedom in T-Coupling group Protein is 4920.79
+Number of degrees of freedom in T-Coupling group non-Protein is 63837.21
+Determining Verlet buffer for a tolerance of 0.005 kJ/mol/ps at 300 K
+Calculated rlist for 1x1 atom pair-list as 1.034 nm, buffer size 0.034 nm
+Set rlist, assuming 4x4 atom pair-list, to 1.000 nm, buffer size 0.000 nm
+Note that mdrun will redetermine rlist based on the actual pair-list setup
+Reading Coordinates, Velocities and Box size from old trajectory
+Will read whole trajectory
+Last frame         -1 time  100.000   
+Calculating fourier grid dimensions for X Y Z
+Using a fourier grid of 44x44x44, spacing 0.159 0.159 0.159
+Using frame at t = 100 ps
+Starting time for run is 0 ps
+Estimate for the relative computational load of the PME mesh part: 0.28
+This run will generate roughly 830 Mb of data
+
+Back Off! I just backed up md_0_50_48tasks.tpr to ./#md_0_50_48tasks.tpr.1#
+
+GROMACS reminds you: "The first 90% of the code accounts for the first 90% of the development time. The remaining 10% of the code accounts for the other 90% of the development time." (Tom Cargill)
+
+                      :-) GROMACS - gmx mdrun, 2020.4 (-:
+
+                            GROMACS is written by:
+     Emile Apol      Rossen Apostolov      Paul Bauer     Herman J.C. Berendsen
+    Par Bjelkmar      Christian Blau   Viacheslav Bolnykh     Kevin Boyd    
+ Aldert van Buuren   Rudi van Drunen     Anton Feenstra       Alan Gray     
+  Gerrit Groenhof     Anca Hamuraru    Vincent Hindriksen  M. Eric Irrgang  
+  Aleksei Iupinov   Christoph Junghans     Joe Jordan     Dimitrios Karkoulis
+    Peter Kasson        Jiri Kraus      Carsten Kutzner      Per Larsson    
+  Justin A. Lemkul    Viveca Lindahl    Magnus Lundborg     Erik Marklund   
+    Pascal Merz     Pieter Meulenhoff    Teemu Murtola       Szilard Pall   
+    Sander Pronk      Roland Schulz      Michael Shirts    Alexey Shvetsov  
+   Alfons Sijbers     Peter Tieleman      Jon Vincent      Teemu Virolainen 
+ Christian Wennberg    Maarten Wolf      Artem Zhmurov   
+                           and the project leaders:
+        Mark Abraham, Berk Hess, Erik Lindahl, and David van der Spoel
+
+Copyright (c) 1991-2000, University of Groningen, The Netherlands.
+Copyright (c) 2001-2019, The GROMACS development team at
+Uppsala University, Stockholm University and
+the Royal Institute of Technology, Sweden.
+check out http://www.gromacs.org for more information.
+
+GROMACS is free software; you can redistribute it and/or modify it
+under the terms of the GNU Lesser General Public License
+as published by the Free Software Foundation; either version 2.1
+of the License, or (at your option) any later version.
+
+GROMACS:      gmx mdrun, version 2020.4
+Executable:   /share/apps/gromacs/2020.4/openmpi/intel/bin/gmx_mpi
+Data prefix:  /share/apps/gromacs/2020.4/openmpi/intel
+Working dir:  /home/rz2522/ondemand/data/sys/myjobs/projects/default/4
+Command line:
+  gmx_mpi mdrun -deffnm md_0_50_48tasks
+
+
+Back Off! I just backed up md_0_50_48tasks.log to ./#md_0_50_48tasks.log.1#
+Reading file md_0_50_48tasks.tpr, VERSION 2020.4 (single precision)
+Changing nstlist from 10 to 50, rlist from 1 to 1.111
+
+Using 48 MPI processes
+
+Non-default thread affinity set, disabling internal thread affinity
+
+Back Off! I just backed up md_0_50_48tasks.xtc to ./#md_0_50_48tasks.xtc.1#
+
+Back Off! I just backed up md_0_50_48tasks.edr to ./#md_0_50_48tasks.edr.1#
+starting mdrun 'LYSOZYME in water'
+25000000 steps,  50000.0 ps.
+
+Writing final coordinates.
+
+
+Dynamic load balancing report:
+ DLB got disabled because it was unsuitable to use.
+ Average load imbalance: 6.3%.
+ The balanceable part of the MD step is 80%, load imbalance is computed from this.
+ Part of the total run time spent waiting due to load imbalance: 5.0%.
+ Average PME mesh/force load: 0.984
+ Part of the total run time spent waiting due to PP/PME imbalance: 0.3 %
+
+NOTE: 5.0 % of the available CPU time was lost due to load imbalance
+      in the domain decomposition.
+      You might want to use dynamic load balancing (option -dlb.)
+      You can also consider manually changing the decomposition (option -dd);
+      e.g. by using fewer domains along the box dimension in which there is
+      considerable inhomogeneity in the simulated system.
+
+               Core t (s)   Wall t (s)        (%)
+       Time:  1015836.409    21163.260     4800.0
+                         5h52:43
+                 (ns/day)    (hour/ns)
+Performance:      204.127        0.118
+
+GROMACS reminds you: "We ignore public understanding of science at our peril." (Eugenie Clark)
+
